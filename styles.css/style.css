@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family= Krona +One &família= Montserrat:wght@400;600 &família= Roboto+Mono & display=swap');
+
+:root {
+     
+    --color-principal :  #000000;
+    --cor-secundaria : #F6F6F6;
+    --cor-terciaria : #22d4fd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho {
+    padding: 2% 0% 0% 10%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80PX;
+
+}
+
+
+
+.Cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+
+}
+
+body {
+
+    box-sizing: border-box;
+    /* height: 100vh;  */
+    background-color: var(--color-principal);
+    color: #F6F6F6;
+}
+
+strong {
+    color: aqua;
+}
+
+
+h1 {
+
+    font-weight: bold;
+}
+
+span {
+    color: #22d4fd;
+    border: 1px solid #22D4FD;
+    padding: 10px;
+}
+
+.apresentacao {
+    padding: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.apresentacao__titulo {
+    font-size: 36px;
+
+}
+
+.apresentacao__paragrafo {
+    font-size: 2.25rem;
+    font-family: 'Montserrat', sans-serif 24px;
+}
+
+.aprsentacao_socialredes_links {
+    font-family: 'krona one', sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+
+
+
+}
+
+.apresentacao__socialredes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #22D4FD;
+    width: 240px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
+}
+
+
+
+.Rodape {
+    color: #272727;
+    background-color: #22D4FD;
+    font-family: 'Monteserrat', sans-serif;
+    padding: 24px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
